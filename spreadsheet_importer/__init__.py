@@ -12,3 +12,6 @@ try:
 except Exception, e:
     VERSION = 'unknown'
 
+
+class Importer(object):
+    header = {}
